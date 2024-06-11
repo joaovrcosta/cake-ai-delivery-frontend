@@ -5,23 +5,23 @@ export const routes = [
     title: 'Dashboard',
   },
   {
-    path: '/',
+    path: '/restaurant',
     icon: '',
-    title: 'Restaurant',
+    title: 'Restaurante',
   },
   {
-    path: '/',
+    path: '/food-list',
     icon: '',
-    title: 'Food List',
+    title: 'Cardápio',
   },
   {
-    path: '/',
+    path: '/orders',
     icon: '',
-    title: 'Orders',
+    title: 'Pedidos',
   },
   {
-    path: '/',
+    path: '/total-sales',
     icon: '',
-    title: 'Total Sales',
+    title: 'Total de Vendas',
   },
 ]

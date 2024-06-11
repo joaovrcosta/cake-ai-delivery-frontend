@@ -1,5 +1,9 @@
 import * as S from './styles'
-import { ColorThemeType, TextFontSize, WeightFont } from '@/core/constants/theme'
+import {
+  ColorThemeType,
+  TextFontSize,
+  WeightFont,
+} from '@/core/constants/theme'
 import { HTMLAttributes } from 'react'
 
 interface TextProps extends HTMLAttributes<HTMLParagraphElement> {
@@ -13,7 +17,7 @@ interface TextProps extends HTMLAttributes<HTMLParagraphElement> {
 
 export function Text({
   size = 'md',
-  color = 'gray_100',
+  color = 'black',
   weight = 'regular',
   uppercase = false,
   as,

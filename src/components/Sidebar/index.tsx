@@ -7,8 +7,17 @@ export function Sidebar() {
     <S.SidebarWrapper>
       <S.SidebarBody>
         <S.LogoContainer>
-          <span>Your Logo</span>
+          <h3>
+            Magic<span>food</span>
+          </h3>
         </S.LogoContainer>
+        <S.ChooseRestaurant>
+          <S.ChooseWrapper>
+            <select>
+              <option value="">MagicFood</option>
+            </select>
+          </S.ChooseWrapper>
+        </S.ChooseRestaurant>
         <S.Buttons>
           {routes.map((btn, i) => {
             return (

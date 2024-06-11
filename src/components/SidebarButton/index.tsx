@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Button } from '../atoms/Button'
+import { MenuButton, PathLink } from './styles'
 
 interface SidebarProps {
   path: string
@@ -10,10 +11,12 @@ interface SidebarProps {
 export function SidebarButton({ path, icon, title }: SidebarProps) {
   return (
     <>
-      <Link href={path}>
+      <PathLink href={path}>
         {icon}
-        <Button backgroundColor="transparent">{title}</Button>
-      </Link>
+        <MenuButton backgroundColor="transparent" rounding="sm" hug={false}>
+          {title}
+        </MenuButton>
+      </PathLink>
     </>
   )
 }

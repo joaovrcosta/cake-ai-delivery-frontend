@@ -1,6 +1,6 @@
 export const defaultTheme = {
   colors: {
-    primary: '#FDFFF4',
+    primary: 'rgba(19, 177, 86, 1)',
     blue_300: 'rgba(94, 114, 228, 1)',
     secondary_500: 'rgba(255, 93, 0, 1)',
     pix_color: 'rgba(50, 188, 173, 1)',

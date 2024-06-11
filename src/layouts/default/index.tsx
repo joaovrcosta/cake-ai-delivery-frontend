@@ -47,7 +47,7 @@ const SidebarWrapper = styled.div`
 
 const ContentWrapper = styled.main`
   margin-left: 250px;
-  padding: 20px;
+  padding: 0 20px 0 0;
   flex: 1;
 `
 

@@ -1,9 +1,14 @@
-import { Heading } from '@/components/atoms/Heading'
+import { ReactElement } from 'react'
+import { DefaultLayout } from '@/layouts/default'
+import { NextPageWithLayout } from '../_app'
+import DashboardPage from '@/views/dashboard'
 
-export default function DashboardPage() {
-  return (
-    <>
-      <Heading color="black">Dashboard Page</Heading>
-    </>
-  )
+const TabelaFipeScreen: NextPageWithLayout = () => {
+  return <DashboardPage />
 }
+
+TabelaFipeScreen.getLayout = (page: ReactElement) => {
+  return <DefaultLayout>{page}</DefaultLayout>
+}
+
+export default TabelaFipeScreen

@@ -104,7 +104,7 @@ export const Button = styled.button<IButton>`
 
   font-weight: 500;
 
-  transition: 0.3s ease all;
+  transition: 0.1s ease all;
 
   &:disabled {
     pointer-events: none;
