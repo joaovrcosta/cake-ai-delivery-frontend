@@ -1,9 +1,14 @@
-import { Heading } from '@/components/atoms/Heading'
+import { ReactElement } from 'react'
+import { DefaultLayout } from '@/layouts/default'
+import { NextPageWithLayout } from '../_app'
+import RestaurantPage from '@/views/restaurant'
 
-export default function RestaurantPage() {
-  return (
-    <>
-      <Heading color="black">Restarante Page</Heading>
-    </>
-  )
+const TabelaFipeScreen: NextPageWithLayout = () => {
+  return <RestaurantPage />
 }
+
+TabelaFipeScreen.getLayout = (page: ReactElement) => {
+  return <DefaultLayout>{page}</DefaultLayout>
+}
+
+export default TabelaFipeScreen

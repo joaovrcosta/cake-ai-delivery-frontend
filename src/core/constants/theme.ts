@@ -46,6 +46,9 @@ export const defaultTheme = {
       black: 900,
     } as const,
   } as const,
+  shadow: {
+    'shadow-light': 'box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.1)',
+  } as const,
 }
 
 export type ColorThemeType = keyof typeof defaultTheme.colors

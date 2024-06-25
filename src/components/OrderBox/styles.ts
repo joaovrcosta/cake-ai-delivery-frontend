@@ -37,7 +37,11 @@ export const AcceptButton = styled(Button)<OrderBoxProps>`
   `}
 `
 
-export const CostumerInfo = styled.div``
+export const CostumerInfo = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0 0.5rem 0;
+`
 
 export const Cost = styled.div`
   display: flex;

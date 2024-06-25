@@ -29,14 +29,14 @@ export function OrderBox() {
         </S.OrderHeading>
         <S.CostumerInfo>
           <p>Airton</p>
-          <p>(11) 958274220</p>
+          <p>(11)95827-4220</p>
         </S.CostumerInfo>
         <S.Cost>
           <div>
             <S.Label>Total</S.Label>
             <S.Label>Dinheiro - Troco</S.Label>
           </div>
-          <div>
+          <div style={{ textAlign: 'right' }}>
             <Text weight="extrabold" color="primary">
               R$ 28,00
             </Text>

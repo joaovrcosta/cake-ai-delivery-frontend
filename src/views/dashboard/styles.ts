@@ -44,25 +44,26 @@ export const OrdersStatus = styled.div`
 
   &::-webkit-scrollbar-track {
     background: #f1f1f1;
-    border-radius: 6px;
+    border-radius: 24px;
   }
 
   &::-webkit-scrollbar-thumb {
-    background: #888;
+    background: #000;
     border-radius: 6px;
   }
 
   &::-webkit-scrollbar-thumb:hover {
     background: #555;
+    cursor: pointer;
   }
 
-  scrollbar-color: #888 #f1f1f1;
+  scrollbar-color: #000 #f1f1f1;
   scrollbar-width: thin;
 `
 
 export const ButtonStatus = styled(Button)`
   height: px;
-  border: 1px solid ${({ theme }) => theme.colors.gray_200};
+  border: 1px solid ${({ theme }) => theme.colors.gray_100};
   color: ${({ theme }) => theme.colors.primary};
 
   &:hover {

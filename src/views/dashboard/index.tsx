@@ -1,8 +1,6 @@
 import { Heading } from '@/components/atoms/Heading'
 import * as S from './styles'
-import { Button } from '@/components/atoms/Button'
 import { OrderBox } from '@/components/OrderBox'
-import OrderDetailsComponent from '@/components/OrderDetails'
 import { Text } from '@/components/atoms/Text'
 
 export default function DashboardPage() {
